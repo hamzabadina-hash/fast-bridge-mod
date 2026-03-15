@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "fastbridge",
+  "version": "1.0.0",
+  "name": "Fast Bridge",
+  "description": "Automates fast bridging with configurable speed.",
+  "authors": ["yourname"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.yourname.fastbridge.FastBridgeMod"],
+    "client": ["com.yourname.fastbridge.FastBridgeClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
